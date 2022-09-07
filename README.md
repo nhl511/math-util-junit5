@@ -1,0 +1,1 @@
+[![CI with GitHub Actions using Maven and JUnit | © 2022 by hoang long](https://github.com/bestadvutru/math-util-junit5/actions/workflows/ci-maven.yml/badge.svg)](https://github.com/bestadvutru/math-util-junit5/actions/workflows/ci-maven.yml)
