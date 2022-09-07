@@ -4,9 +4,9 @@ name: CI with GitHub Actions using Maven and JUnit | © 2022 by hoang long
 
 on:
   push:
-    branches: [ main ] # Lấy code từ nhánh main nếu có ai push code lên  
+    branches: [ master ] # Lấy code từ nhánh main nếu có ai push code lên  
   pull_request:
-    branches: [ main ] # Lấy code từ nhánh main nếu có ai gửi pull request  
+    branches: [ master ] # Lấy code từ nhánh main nếu có ai gửi pull request  
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy test, đóng gói, gửi build...
